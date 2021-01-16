@@ -5,6 +5,7 @@ Starter template for Next.js with TypeScript.
 Features
 * Start with minimal Next.js app (using `npm`) via `npx create-next-app nextjs-starter --use-npm` then simplified example
 * Convert to TypeScript (and set to `strict` mode)
+* Add Prettier config
 * Add health check endpoint
 * Add placeholder `favicon.ico`
 
