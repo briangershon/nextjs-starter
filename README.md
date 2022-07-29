@@ -1,13 +1,14 @@
 ## nextjs-starter
 
-Starter template for Next.js, with TypeScript and tailwindcss.
+Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 
 Features
-* Start with minimal Next.js app (using `npm`) via `npx create-next-app nextjs-starter --use-npm --ts` and simplify content
-* Add tailwindcss
-* Add Prettier config
-* Add health check endpoint (`/api/health`)
-* Add placeholder `favicon.ico`
+
+- Start with minimal [Next.js](https://nextjs.org/) app (using `npm`) via `npx create-next-app nextjs-starter --use-npm --ts` and simplify content
+- Add [tailwindcss](https://tailwindcss.com/) and [daisyUI](https://daisyui.com)
+- Add Prettier config
+- Add health check endpoint (`/api/health`)
+- Add placeholder `favicon.ico`
 
 ## Run locally
 
