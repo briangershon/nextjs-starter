@@ -2,7 +2,9 @@
 
 Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 
-Features
+![home page screenshot](nextjs-starter.png)
+
+## Features
 
 - Start with minimal [Next.js](https://nextjs.org/) app (using `npm`) via `npx create-next-app nextjs-starter --use-npm --ts` and simplify content
 - Add [tailwindcss](https://tailwindcss.com/) and [daisyUI](https://daisyui.com)
