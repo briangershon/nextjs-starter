@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div className="text-3xl font-bold">Hello Home!</div>
+        <div className="text-3xl font-bold">Hello About!</div>
       </main>
     </div>
   );
