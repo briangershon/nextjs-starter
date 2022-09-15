@@ -13,6 +13,4 @@ jobs:
           node-version: '16.x'
       - run: node --version
       - run: yarn
-        working-directory: web-ui
       - run: yarn test:ci
-        working-directory: web-ui
