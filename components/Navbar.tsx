@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-export default function Navbar() {
+export function Navbar() {
   const router = useRouter();
   const currentRoute = router.pathname;
 

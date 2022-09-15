@@ -1,5 +1,7 @@
 ## nextjs-starter
 
+![React tests](https://github.com/briangershon/nextjs-starter/actions/workflows/continuous-integration.yaml/badge.svg)
+
 Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 
 ![home page screenshot](nextjs-starter.png)
@@ -21,3 +23,10 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Run tests
+
+```bash
+yarn
+yarn test
+```
