@@ -16,7 +16,8 @@ Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 ## Run locally
 
 ```bash
-npm run dev
+yarn
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
