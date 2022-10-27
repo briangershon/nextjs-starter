@@ -1,4 +1,4 @@
-import Head from 'next/head';
+'use client';
 
 export interface Joke {
   id: number;
@@ -10,10 +10,6 @@ export interface Joke {
 export default function HomePage({ jokes }: { jokes: Joke[] }) {
   return (
     <div className="flex flex-col h-screen">
-      <Head>
-        <title>nextjs-starter</title>
-      </Head>
-
       <h1 className="text-3xl font-bold">Jokes</h1>
 
       <ul>
