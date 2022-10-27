@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <div className="flex h-screen">
       <Head>
@@ -9,11 +9,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className="text-3xl font-bold">Hello Home!</div>
-      </main>
+      <div className="text-3xl font-bold">About</div>
     </div>
   );
 };
 
-export default Home;
+export default About;

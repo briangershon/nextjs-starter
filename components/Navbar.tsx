@@ -1,9 +1,10 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 
 export function Navbar() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
+  const currentRoute = usePathname();
 
   return (
     <div className="navbar bg-base-100">
