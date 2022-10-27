@@ -8,7 +8,10 @@ Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 
 ## Features
 
-- Supports experimental /app layout in Next.js v13 with server components, client components and layouts
+- **Experimental Next.js v13 Support**
+  - [x] Uses experimental `/app` layout in Next.js v13 with server components, client components and layouts.
+  - [ ] Data fetching caveats: https://beta.nextjs.org/docs/data-fetching/fetching
+  - [ ] `next/head` doesn't seem supported yet to override page `<head>` metadata
 - Start with minimal [Next.js](https://nextjs.org/) app (using `npm`) via `npx create-next-app nextjs-starter --ts` and simplify content
 - Add [tailwindcss](https://tailwindcss.com/) and [daisyUI](https://daisyui.com)
 - Add navigation, site layout and two pages
