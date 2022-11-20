@@ -8,9 +8,9 @@ Starter template for Next.js, with TypeScript, tailwindcss and daisyUI.
 
 ## Features
 
-- **Add Experimental Next.js v13 Support**
+- **Add Next.js v13 with experimental /app support**
   - Uses experimental `/app` layout in Next.js v13 with server components, client components and layouts.
-  - `next/head` is now moved into `head.js`, but "currently, the Head export does not re-render on client-side transitions, only on initial render. To work around this for `<title>`, you can use a client component with useEffect that updates document.title. This will be fixed soon in a future release."
+  - Adds example server-rendered component populated with fetch (using data from jokes API). Display message while loading.
   - Note that `fetch` not usable in client components. Use server components or third-party client-side library like Axios if needed. https://beta.nextjs.org/docs/data-fetching/fetching
 - Start with minimal [Next.js](https://nextjs.org/) app (using `npm`) via `npx create-next-app nextjs-starter --ts` and simplify content
 - Add [tailwindcss](https://tailwindcss.com/) and [daisyUI](https://daisyui.com)
