@@ -1,9 +1,10 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 
 export function Navbar() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
+  const currentRoute = usePathname();
 
   return (
     <div className="navbar bg-base-100">
@@ -13,17 +14,19 @@ export function Navbar() {
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <Link href="/">
-              <a className={currentRoute === '/' ? 'active' : undefined}>
-                Home
-              </a>
+            <Link
+              href="/"
+              className={currentRoute === '/' ? 'active' : undefined}
+            >
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <a className={currentRoute === '/about' ? 'active' : undefined}>
-                About
-              </a>
+            <Link
+              href="/about"
+              className={currentRoute === '/about' ? 'active' : undefined}
+            >
+              About
             </Link>
           </li>
         </ul>
