@@ -1,5 +1,3 @@
-'use client';
-
 export interface Joke {
   id: number;
   type: string;
